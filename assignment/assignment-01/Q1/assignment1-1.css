@@ -1,0 +1,23 @@
+h1 {
+    color: orange;
+    font-size: 30px;
+    width: 500px;
+    border-bottom: 15px dotted rgb(92, 168, 113);
+}
+.introduce-text {
+    color: rgb(136, 136, 136);
+}
+.contact-text {
+    font-style: italic;
+}
+ul {
+    background-color: rgb(255, 250, 206);
+    width: 500px;
+    height: auto;
+    padding: 20px 0 20px 20px;
+    border: 5px solid orangered;
+    margin: 20px 0 0 0;
+}
+a:hover {
+    color: red;
+}
