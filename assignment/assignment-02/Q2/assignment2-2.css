@@ -1,0 +1,149 @@
+body {
+    margin: 200px;
+}
+
+.layout-container {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    flex-direction: column;
+}
+
+.layout-first {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 8%;
+    background-color: rgb(247, 226, 212);
+    align-items: center;
+}
+
+.first {
+    height: 75%;
+}
+
+.first1 {
+    flex-basis: 17%;
+    background-color:rgb(255, 167, 167);
+}
+
+.first2 {
+    flex-basis: 80%;
+    background-color: rgb(255, 167, 167);
+}
+
+.layout-second {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 8%;
+    background-color: rgb(255, 254, 183);
+    align-items: center;
+}
+
+.second {
+    background-color: rgb(248, 188, 97);
+    width: 32%;
+    height: 75%;
+}
+
+.layout-third {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 22%;
+    background-color: rgb(195, 231, 184);
+    align-items: center;
+}
+
+.third {
+    height: 85%;
+}
+
+.third1 {
+    width: 38%;
+    background-color: rgb(153, 207, 153);
+}
+
+.third2 {
+    width: 59%;
+    background-color: rgb(153, 207, 153);
+}
+
+.layout-fourth {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 22%;
+    background-color: rgb(185, 198, 255);
+    align-items: center;
+}
+
+.fourth {
+    height: 85%;
+    display: flex;
+}
+
+.fourth1 {
+    width: 59%;
+    background-color: rgb(150, 177, 250);
+    border-radius: 40px;
+    justify-content: center;
+}
+
+.fourth2 {
+    width: 38%;
+    background-color: rgb(150, 177, 250);
+    border-radius: 40px;
+    justify-content: center;
+}
+
+.layout-fifth {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 33%;
+    background-color: rgb(218, 192, 243);
+    align-items: center;
+}
+
+.fifth1 {
+    display: flex;
+    flex-basis: 38%;
+    background-color: rgb(195, 161, 240);
+    height: 90%;
+}
+
+.inner-container {
+    display: flex;
+    flex-basis: 59%;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90%;
+}
+
+.fifth2 {
+    display: flex;
+    flex-basis: 45%;
+    background-color: rgb(195, 161, 240);
+}
+
+.fifth3 {
+    display: flex;
+    flex-basis: 45%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(195, 161, 240);
+}
+
+.fifth3-1 {
+    display: flex;
+    flex-basis: 48%;
+    background-color: rgb(218, 192, 243);
+    height: 75%;
+    justify-content: center;
+    
+}
+
+.fifth3-2 {
+    display: flex;
+    flex-basis: 48%;
+    background-color: rgb(218, 192, 243);
+    height: 75%;
+    justify-content: center;
+}
